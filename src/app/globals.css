@@ -16,16 +16,18 @@
   }
 }
 
-body {
+.urdu {
+  font-family: 'urdu';
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
 
+}
+/* global.css */
+@font-face {
+  font-family: 'urdu';
+  src: url('/fonts/jameel.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
