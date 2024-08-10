@@ -310,6 +310,84 @@ const data: Person[] = [
     urdu: 'لعل باچا ',
     amount: 0
   },
+  {
+    id: 51, 
+    name: 'muslium bacha',
+    urdu: 'مسلم باچا ',
+    amount: 0
+  },
+  {
+    id: 52, 
+    name: 'said muhammad badwan',
+    urdu: 'سید محمّد باڈوان ',
+    amount: 1000
+  },
+  {
+    id: 53, 
+    name: 'naveed',
+    urdu: 'نوید ',
+    amount: 5000
+  },
+  {
+    id: 54, 
+    name: 'adnan',
+    urdu: 'عدنان ',
+    amount: 4700
+  },
+  {
+    id: 55, 
+    name: 'aziz ul haq',
+    urdu: 'عزیز الحق ',
+    amount: 3000
+  },
+  {
+    id: 56, 
+    name: 'khan bacha',
+    urdu: 'خان باچا ',
+    amount: 1000
+  },
+  {
+    id: 57, 
+    name: 'fazal ul rahman',
+    urdu: 'فضل الرحمن ',
+    amount: 0
+  },
+  {
+    id: 58, 
+    name: 'imran badwan',
+    urdu: 'عمران باڈوان ',
+    amount: 7450
+  },
+  {
+    id: 59, 
+    name: 'khurshaid',
+    urdu: 'خورشید ',
+    amount: 4450
+  },
+  {
+    id: 60, 
+    name: 'izat khan',
+    urdu: 'عزت خان ',
+    amount: 6150
+  },
+  {
+    id: 61, 
+    name: 'muhammad asif',
+    urdu: 'محمّد آصف ',
+    amount:5000
+  },
+  {
+    id: 62, 
+    name: 'bakhtiyar',
+    urdu: 'بختیار ',
+    amount: 7000
+  },
+  {
+    id: 63, 
+    name: 'javed iqbal',
+    urdu: 'جاوید اقبال ',
+    amount: 2000
+  },
 
   
 ];
