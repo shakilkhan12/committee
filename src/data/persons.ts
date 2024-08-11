@@ -17,7 +17,7 @@ export const data: Person[] = [
       id: 3, 
       name: 'wasi ullah',
       urdu: 'وصی  الله ',
-      amount: 1000
+      amount: 0
     },
     {
       id: 4, 
