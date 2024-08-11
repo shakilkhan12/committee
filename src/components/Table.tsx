@@ -80,7 +80,7 @@ const data: Person[] = [
     id: 11, 
     name: 'amin ullah khan',
     urdu: 'آمین الله خان ',
-    amount: 6500
+    amount: 5500
   },
   {
     id: 12, 
@@ -128,7 +128,7 @@ const data: Person[] = [
     id: 19, 
     name: 'amir zaman',
     urdu: 'امیر  زمان ',
-    amount: 7000
+    amount: 6000
   },
   {
     id: 20, 
@@ -158,7 +158,7 @@ const data: Person[] = [
     id: 24, 
     name: 'sultan zaib',
     urdu: 'سلطان زیب ',
-    amount: 1000
+    amount: 0
   },
   {
     id: 25, 
@@ -212,13 +212,13 @@ const data: Person[] = [
     id: 33, 
     name: 'jehanzaib',
     urdu: 'جہانزیب ',
-    amount: 7000
+    amount: 6000
   },
   {
     id: 34, 
     name: 'nasib rawan',
     urdu: 'نصیب روان ',
-    amount: 4000
+    amount: 3000
   },
   {
     id: 35, 
@@ -338,13 +338,13 @@ const data: Person[] = [
     id: 55, 
     name: 'aziz ul haq',
     urdu: 'عزیز الحق ',
-    amount: 3000
+    amount: 1000
   },
   {
     id: 56, 
     name: 'khan bacha',
     urdu: 'خان باچا ',
-    amount: 1000
+    amount: 0
   },
   {
     id: 57, 
@@ -387,6 +387,90 @@ const data: Person[] = [
     name: 'javed iqbal',
     urdu: 'جاوید اقبال ',
     amount: 2000
+  },
+  {
+    id: 64, 
+    name: 'majid gull',
+    urdu: 'مجید گل ',
+    amount: 6000
+  },
+  {
+    id: 65, 
+    name: 'said muhammad khadagzai',
+    urdu: 'سید محمّد خادگزی ',
+    amount: 0
+  },
+  {
+    id: 66, 
+    name: 'ali rahman',
+    urdu: 'علی رحمان ',
+    amount: 1000
+  },
+  {
+    id: 67, 
+    name: 'bahadar said',
+    urdu: 'بہادر سید ',
+    amount: 1000
+  },
+  {
+    id: 68, 
+    name: 'shahid PTI',
+    urdu: 'شاہد  (تحریک انصاف )',
+    amount: 2000
+  },
+  {
+    id: 69, 
+    name: 'parviz',
+    urdu: 'پرویز ',
+    amount: 3000
+  },
+  {
+    id: 70, 
+    name: 'shir ali',
+    urdu: 'شیر علی ',
+    amount: 4000
+  },
+  {
+    id: 71, 
+    name: 'shir zaman',
+    urdu: 'شیر زمان ',
+    amount: 4000
+  },
+  {
+    id: 72, 
+    name: 'umer bacha',
+    urdu: 'عمر باچا ',
+    amount: 3000
+  },
+  {
+    id: 73, 
+    name: 'shabir bhai jan',
+    urdu: 'شبیر بھائی جان ',
+    amount: 2000
+  },
+  {
+    id: 74, 
+    name: 'murad',
+    urdu: 'مراد ',
+    amount: 4000
+  },
+  {
+    id: 75, 
+    name: 'gull faraz',
+    urdu: 'گل فراز ',
+    amount: 4000
+  },
+  {
+    id: 76, 
+    name: 'bahram',
+    urdu: 'بہرام ',
+    amount: 4000
+  },
+  {
+    id: 77, 
+    name: 'fayaz',
+    urdu: 'فیاض ',
+    amount: 1000
   },
 
   
