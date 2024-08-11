@@ -7,6 +7,7 @@ import {
 } from 'material-react-table';
 import { Person } from '@/types';
 import { data } from '@/data/persons';
+import Link from 'next/link';
 
 const TableComponent = () => {
   //should be memoized or stable
@@ -14,13 +15,19 @@ const TableComponent = () => {
     () => [
       {
         accessorKey: 'id', //access nested data with dot notation
-        header: 'S.no',
+        header: 'سیریل نمبر ',
         size: 30,   
+        muiTableHeadCellProps: {
+          style: {
+            fontFamily: 'urdu',
+            fontSize: '18px'
+          }
+        }
       },
      
       {
         accessorKey: 'name', //access nested data with dot notation
-        header: 'Name',
+        header: 'انگریزی نام ',
         size: 200,
         muiTableBodyCellProps: {
             style: {
@@ -28,10 +35,16 @@ const TableComponent = () => {
               textTransform: 'capitalize'
             },
           },
+          muiTableHeadCellProps: {
+            style: {
+              fontFamily: 'urdu',
+              fontSize: '18px'
+            }
+          }
       },
       {
         accessorKey: 'urdu', //access nested data with dot notation
-        header: 'Name',
+        header: 'اردو  نام ',
         size: 200,
         muiTableBodyCellProps: {
             style: {
@@ -39,13 +52,55 @@ const TableComponent = () => {
               fontFamily: 'urdu'
             },
           },
+          muiTableHeadCellProps: {
+            style: {
+              fontFamily: 'urdu',
+              fontSize: '18px'
+            }
+          }
       },
       {
         accessorKey: 'amount',
-        header: 'Amount',
+        header: 'رقم',
         size: 80,
+        muiTableHeadCellProps: {
+          style: {
+            fontFamily: 'urdu',
+            fontSize: '18px'
+          }
+        },
+        Cell: (data) => {
+          let sum = data?.row?.original?.details?.dues;
+          if(typeof sum === 'number') {
+            data?.row?.original?.details?.history?.forEach(data => {
+              if(typeof data?.amount === 'number' && typeof sum === 'number') {
+                sum += data?.amount;
+              }
+         })
+          }
+          return (
+            <h1>{sum}</h1>
+          )
+        }
       },
-      
+      {
+        accessorKey: 'details',
+        header: 'تفصیل',
+        size: 80,
+        muiTableHeadCellProps: {
+          style: {
+            fontFamily: 'urdu',
+            fontSize: '18px'
+          }
+        },
+        Cell: (data) => 
+        {
+          console.log(data.row.original)
+          return (
+            <Link href={`/person/${data?.row?.original?.id}`} className='outline-none bg-green-600 !text-white capitalize rounded-lg px-4 py-2 urdu'>تفصیل </Link>
+          )
+        }
+      },
     ],
     [],
   );

@@ -13,7 +13,6 @@ const SmallHeader = () => {
             }
         })
         setSum(total);
-       
     }, [])
   return (
     <section className="bg-gray-100 px-5 min-h-16 flex justify-between items-center border-y border-t-gray-200">
