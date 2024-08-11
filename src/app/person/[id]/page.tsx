@@ -37,7 +37,7 @@ const page = ({params}: PropTypes) => {
                 </div>
                 <div className='flex justify-between gap-x-5 items-center p-4 border-t'>
                     <h1 className='text-base font-bold urdu'>بقایاجات :</h1>
-                    <h1 className='text-base font-bold urdu'>{person.details?.dues}</h1>
+                    <h1 className='text-base font-bold urdu flex items-center space-x-2'><span>روپے </span><span>{person.details?.dues}</span></h1>
                 </div>
                 <div className='border-t p-4'>
                     <h3 className='urdu text-center text-xl'>مرے ہوئے لوگوں کی تفصیلات:</h3>
