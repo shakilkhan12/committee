@@ -67,9 +67,9 @@ export const data: Person[] = [
       urdu: 'نیاز محمّد ',
       amount: 5000,
       details: {
-        dues: 5000,
+        dues: 4000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 1000 }
         ]
       }
     },
