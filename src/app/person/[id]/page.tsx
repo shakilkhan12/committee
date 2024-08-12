@@ -28,29 +28,35 @@ const page = ({params}: PropTypes) => {
   return (
     <div>
          <Header />
-         <SmallHeader />
          <div className='max-w-screen-xl px-5 py-3 mx-auto'>
             <div className='border rounded'>
                 <div className='flex justify-between gap-x-5 items-center p-4'>
-                    <h1 className='text-3xl font-bold urdu'>نام :</h1>
-                    <h1 className='text-2xl font-bold urdu'>{person.urdu}</h1>
+                    <h1 className='text-base font-bold urdu'>نام :</h1>
+                    <h1 className='text-base font-bold urdu'>{person.urdu}</h1>
                 </div>
                 <div className='flex justify-between gap-x-5 items-center p-4 border-t'>
                     <h1 className='text-base font-bold urdu'>بقایاجات :</h1>
                     <h1 className='text-base font-bold urdu flex items-center space-x-2'><span>روپے </span><span>{person.details?.dues}</span></h1>
                 </div>
                 <div className='border-t p-4'>
-                    <h3 className='urdu text-center text-xl'>مرے ہوئے لوگوں کی تفصیلات:</h3>
+                    <h3 className='urdu text-center text-xl'>مرے ہوئے لوگوں کی تفصیلات</h3>
                 </div>
                 <div className=''>
                     {person?.details?.history?.map(history => {
                         if(typeof history.amount === 'number') {
                             return (
                                 <div className='flex items-center justify-between border-t py-3 px-6'>
-                                    <h3 className='urdu text-base font-semibold'>{history.name}</h3>
+                                    <h3 className='urdu text-base font-semibold'>{history.name}:</h3>
                                     <h3 className='font-semibold urdu flex items-center space-x-2'><span>روپے</span> <span>{history.amount}</span></h3>
                                 </div>
                             )
+                        } else {
+                           return  (
+                            <div className='flex items-center justify-between border-t py-3 px-6'>
+                           <h3 className='urdu text-base font-semibold'>{history.name}:</h3>
+                           <h3 className='font-semibold urdu flex items-center space-x-2'><span>{history.amount}</span></h3>
+                       </div>
+                           )
                         }
                     })}
                 </div>

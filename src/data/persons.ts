@@ -9,7 +9,7 @@ export const data: Person[] = [
       details: {
         dues: 3000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -21,7 +21,7 @@ export const data: Person[] = [
       details: {
         dues: 450,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -33,7 +33,7 @@ export const data: Person[] = [
       details: {
         dues: 0,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -57,7 +57,7 @@ export const data: Person[] = [
       details: {
         dues: 0,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -69,7 +69,7 @@ export const data: Person[] = [
       details: {
         dues: 5000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -81,7 +81,7 @@ export const data: Person[] = [
       details: {
         dues: 2000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -105,7 +105,7 @@ export const data: Person[] = [
       details: {
         dues: 1420,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -117,7 +117,7 @@ export const data: Person[] = [
       details: {
         dues: 2000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -129,7 +129,7 @@ export const data: Person[] = [
       details: {
         dues: 5500,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -213,7 +213,7 @@ export const data: Person[] = [
       details: {
         dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -225,7 +225,7 @@ export const data: Person[] = [
       details: {
         dues: 6000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -237,7 +237,7 @@ export const data: Person[] = [
       details: {
         dues: 0,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -261,7 +261,7 @@ export const data: Person[] = [
       details: {
         dues: 5000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -285,7 +285,7 @@ export const data: Person[] = [
       details: {
         dues: 0,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -333,7 +333,7 @@ export const data: Person[] = [
       details: {
         dues: 2250,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -381,7 +381,7 @@ export const data: Person[] = [
       details: {
         dues: 2000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -393,7 +393,7 @@ export const data: Person[] = [
       details: {
         dues: 6000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -405,7 +405,7 @@ export const data: Person[] = [
       details: {
         dues: 3000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -417,7 +417,7 @@ export const data: Person[] = [
       details: {
         dues: 0,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -429,7 +429,7 @@ export const data: Person[] = [
       details: {
         dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -453,7 +453,7 @@ export const data: Person[] = [
       details: {
         dues: 1600,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -465,7 +465,7 @@ export const data: Person[] = [
       details: {
         dues: 5000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -477,7 +477,7 @@ export const data: Person[] = [
       details: {
         dues: 0,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -525,7 +525,7 @@ export const data: Person[] = [
       details: {
         dues: 0,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -561,7 +561,7 @@ export const data: Person[] = [
       details: {
         dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -597,7 +597,7 @@ export const data: Person[] = [
       details: {
         dues: 0,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -609,7 +609,7 @@ export const data: Person[] = [
       details: {
         dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -621,7 +621,7 @@ export const data: Person[] = [
       details: {
         dues: 4000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -629,11 +629,11 @@ export const data: Person[] = [
       id: 54, 
       name: 'adnan',
       urdu: 'عدنان ',
-      amount: 4700,
+      amount: 2700,
       details: {
-        dues: 4700,
+        dues: 2700,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -645,7 +645,7 @@ export const data: Person[] = [
       details: {
         dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -657,7 +657,7 @@ export const data: Person[] = [
       details: {
         dues: 0,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -669,7 +669,7 @@ export const data: Person[] = [
       details: {
         dues: 0,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -753,7 +753,7 @@ export const data: Person[] = [
       details: {
         dues: 0,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -765,7 +765,7 @@ export const data: Person[] = [
       details: {
         dues: 0,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -777,7 +777,7 @@ export const data: Person[] = [
       details: {
         dues: 0,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -801,7 +801,7 @@ export const data: Person[] = [
       details: {
         dues: 3000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -819,13 +819,13 @@ export const data: Person[] = [
     },
     {
       id: 70, 
-      name: 'shir zaman',
+      name: 'shair zaman',
       urdu: 'شیر زمان ',
-      amount: 4000,
+      amount: 3000,
       details: {
         dues: 3000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول' }
         ]
       }
     },
@@ -897,7 +897,7 @@ export const data: Person[] = [
       details: {
         dues: 0,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 0}
+          { id: 1, name: 'شاہد والد', amount: 'وصول'}
         ]
       }
     },

@@ -17,7 +17,7 @@ const SmallHeader = () => {
   return (
     <section className="bg-gray-100 px-5 min-h-16 flex justify-between items-center border-y border-t-gray-200">
         <h1 className="urdu text-3xl">تمام  بقایاجات:</h1>
-       <h1 className="font-bold text-base">{sum}</h1>
+       <h1 className="font-bold text-base urdu flex items-center space-x-2"><span>روپے</span> <span>{sum}</span></h1>
     </section>
   )
 }
