@@ -545,9 +545,9 @@ export const data: Person[] = [
       id: 46, 
       name: 'zahid hussain',
       urdu: 'زاہد حسین ',
-      amount: 3000,
+      amount: 2000,
       details: {
-        dues: 2000,
+        dues: 1000,
         history: [
           { id: 1, name: 'شاہد والد', amount: 1000 }
         ]
@@ -893,6 +893,18 @@ export const data: Person[] = [
       id: 76, 
       name: 'fayaz',
       urdu: 'فیاض ',
+      amount: 0,
+      details: {
+        dues: 0,
+        history: [
+          { id: 1, name: 'شاہد والد', amount: 'وصول'}
+        ]
+      }
+    },
+    {
+      id: 77, 
+      name: 'shair akbar',
+      urdu: 'شیر اکبر ',
       amount: 0,
       details: {
         dues: 0,
