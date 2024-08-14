@@ -1,3 +1,4 @@
+import FundComponent from "@/components/FundComponent";
 import Header from "@/components/Header";
 import SmallHeader from "@/components/SmallHeader";
 import TableComponent from "@/components/Table";
@@ -8,6 +9,7 @@ export default function Home() {
     <div>
      <Header />
      <SmallHeader />
+     <FundComponent />
      <TableComponent />
     </div>
   );

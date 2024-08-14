@@ -1,7 +1,8 @@
 export type History  = {
   id: number
   name: string
-  amount: number | string
+  amount: number | string,
+  deposit_amount?: number
 }
 export type Person = {
     id: number
