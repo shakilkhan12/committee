@@ -79,7 +79,7 @@ const TableComponent = () => {
          })
           }
           return (
-            <h1 className='urdu flex items-center space-x-2'><span>روپے</span> <span>{sum}</span></h1>
+            <h1 className='urdu flex items-center space-x-2 !font-semibold'><span>روپے</span> <span>{sum}</span></h1>
           )
         }
       },
