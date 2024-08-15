@@ -8,7 +8,7 @@ export type Person = {
     id: number
     name: string;
     urdu: string
-    amount: number | string
+    // amount: number | string
     details: {
       dues: number | string,
       history: History[]

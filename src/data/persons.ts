@@ -5,7 +5,7 @@ export const data: Person[] = [
       id: 1, 
       name: 'amir ghafar',
       urdu: 'امیر  غفار',
-      amount: 3000,
+      // amount: 3000,
       details: {
         dues: 3000,
         history: [
@@ -17,7 +17,6 @@ export const data: Person[] = [
       id: 2, 
       name: 'gull ghafar',
       urdu: 'گل  غفار ',
-      amount: 450,
       details: {
         dues: 450,
         history: [
@@ -29,7 +28,6 @@ export const data: Person[] = [
       id: 3, 
       name: 'wasi ullah',
       urdu: 'وصی  الله ',
-      amount: 0,
       details: {
         dues: 0,
         history: [
@@ -41,7 +39,7 @@ export const data: Person[] = [
       id: 4, 
       name: 'muhammad rafiq',
       urdu: 'محمّد رفیق ',
-      amount: 5000,
+
       details: {
         dues: 4000,
         history: [
@@ -53,7 +51,7 @@ export const data: Person[] = [
       id: 5, 
       name: 'ghulam haider',
       urdu: 'غلام حیدر ',
-      amount: 0,
+ 
       details: {
         dues: 0,
         history: [
@@ -65,7 +63,7 @@ export const data: Person[] = [
       id: 6, 
       name: 'niaz muhammad',
       urdu: 'نیاز محمّد ',
-      amount: 5000,
+      
       details: {
         dues: 5000,
         history: [
@@ -77,7 +75,7 @@ export const data: Person[] = [
       id: 7, 
       name: 'said muhammad',
       urdu: 'سید محمّد ',
-      amount: 2000,
+   
       details: {
         dues: 2000,
         history: [
@@ -89,7 +87,7 @@ export const data: Person[] = [
       id: 8, 
       name: 'hussain muhammad',
       urdu: 'حسین  محمّد ',
-      amount: 3500,
+      
       details: {
         dues: 2500,
         history: [
@@ -101,7 +99,7 @@ export const data: Person[] = [
       id: 9, 
       name: 'muhammad khan',
       urdu: ' محمّد خان  ',
-      amount: 1420,
+    
       details: {
         dues: 1420,
         history: [
@@ -113,7 +111,7 @@ export const data: Person[] = [
       id: 10, 
       name: 'shah zareen khan',
       urdu: 'شاہ زرین  خان ',
-      amount: 2000,
+   
       details: {
         dues: 2000,
         history: [
@@ -125,7 +123,7 @@ export const data: Person[] = [
       id: 11, 
       name: 'amin ullah khan',
       urdu: 'آمین الله خان ',
-      amount: 5500,
+     
       details: {
         dues: 5500,
         history: [
@@ -137,7 +135,7 @@ export const data: Person[] = [
       id: 12, 
       name: 'ihsan ullah',
       urdu: 'احسان  الله  ',
-      amount: 0,
+    
       details: {
         dues: 0,
         history: [
@@ -149,7 +147,7 @@ export const data: Person[] = [
       id: 13, 
       name: 'sami ullah',
       urdu: 'سمیع اللہ',
-      amount: 0,
+   
       details: {
         dues: 0,
         history: [
@@ -161,7 +159,7 @@ export const data: Person[] = [
       id: 14, 
       name: 'israr',
       urdu: 'اسرار ',
-      amount: '+2300',
+   
       details: {
         dues: '+2300',
         history: [
@@ -173,7 +171,7 @@ export const data: Person[] = [
       id: 15, 
       name: 'habib ullah',
       urdu: 'حبیب اللہ ',
-      amount: 3000,
+
       details: {
         dues: 2000,
         history: [
@@ -185,7 +183,7 @@ export const data: Person[] = [
       id: 16, 
       name: 'shah tamas khan',
       urdu: 'شاہ تماس خان ',
-      amount: 4000,
+     
       details: {
         dues: 3000,
         history: [
@@ -197,7 +195,7 @@ export const data: Person[] = [
       id: 17, 
       name: 'shakil khan',
       urdu: 'شکیل خان ',
-      amount: 1000,
+    
       details: {
         dues: 0,
         history: [
@@ -209,7 +207,7 @@ export const data: Person[] = [
       id: 18, 
       name: 'ahmad',
       urdu: 'آحمد',
-      amount: 1000,
+ 
       details: {
         dues: 1000,
         history: [
@@ -221,7 +219,7 @@ export const data: Person[] = [
       id: 19, 
       name: 'amir zaman',
       urdu: 'امیر  زمان ',
-      amount: 6000,
+   
       details: {
         dues: 6000,
         history: [
@@ -233,7 +231,7 @@ export const data: Person[] = [
       id: 20, 
       name: 'muhammad zareen',
       urdu: 'محمّد زرین ',
-      amount: 3000,
+  
       details: {
         dues: 2000,
         history: [
@@ -245,7 +243,7 @@ export const data: Person[] = [
       id: 21, 
       name: 'umer zada',
       urdu: 'عمر زادہ ',
-      amount: 1000,
+    
       details: {
         dues: 1000,
         history: [
@@ -257,7 +255,7 @@ export const data: Person[] = [
       id: 22, 
       name: 'fazal satar',
       urdu: 'فضل ستار ',
-      amount: 5000,
+    
       details: {
         dues: 5000,
         history: [
@@ -269,7 +267,7 @@ export const data: Person[] = [
       id: 23, 
       name: 'imran shamai',
       urdu: 'عمران شمائ ',
-      amount: 0,
+  
       details: {
         dues: 0,
         history: [
@@ -281,7 +279,7 @@ export const data: Person[] = [
       id: 24, 
       name: 'sultan zaib',
       urdu: 'سلطان زیب ',
-      amount: 0,
+    
       details: {
         dues: 0,
         history: [
@@ -293,7 +291,7 @@ export const data: Person[] = [
       id: 25, 
       name: 'shoaib',
       urdu: 'شعیب ',
-      amount: 4000,
+  
       details: {
         dues: 3000,
         history: [
@@ -305,7 +303,7 @@ export const data: Person[] = [
       id: 26, 
       name: 'nazir',
       urdu: 'نذیر ',
-      amount: 7000,
+  
       details: {
         dues: 6000,
         history: [
@@ -317,7 +315,7 @@ export const data: Person[] = [
       id: 27, 
       name: 'amir bacha',
       urdu: 'امیر باچا ',
-      amount: 1000,
+  
       details: {
         dues: 0,
         history: [
@@ -329,7 +327,7 @@ export const data: Person[] = [
       id: 28, 
       name: 'irshad maulana',
       urdu: 'ارشاد مولانا ',
-      amount: 2250,
+
       details: {
         dues: 2250,
         history: [
@@ -341,7 +339,7 @@ export const data: Person[] = [
       id: 29, 
       name: 'farooq',
       urdu: 'فاروق ',
-      amount: 7120,
+   
       details: {
         dues: 6120,
         history: [
@@ -353,11 +351,11 @@ export const data: Person[] = [
       id: 30, 
       name: 'noor zaman',
       urdu: 'نور زمان ',
-      amount: 2000,
+   
       details: {
         dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
         ]
       }
     },
@@ -365,7 +363,7 @@ export const data: Person[] = [
       id: 31, 
       name: 'gull rahman',
       urdu: 'گل رحمان',
-      amount: 6300,
+   
       details: {
         dues: 5300,
         history: [
@@ -377,7 +375,7 @@ export const data: Person[] = [
       id: 32, 
       name: 'sabir khan',
       urdu: 'صابر  خان ',
-      amount: 2000,
+ 
       details: {
         dues: 2000,
         history: [
@@ -389,7 +387,7 @@ export const data: Person[] = [
       id: 33, 
       name: 'jehanzaib',
       urdu: 'جہانزیب ',
-      amount: 6000,
+ 
       details: {
         dues: 6000,
         history: [
@@ -401,7 +399,7 @@ export const data: Person[] = [
       id: 34, 
       name: 'nasib rawan',
       urdu: 'نصیب روان ',
-      amount: 3000,
+   
       details: {
         dues: 3000,
         history: [
@@ -413,7 +411,7 @@ export const data: Person[] = [
       id: 35, 
       name: 'momin khan',
       urdu: 'مومن خان ',
-      amount: 0,
+
       details: {
         dues: 0,
         history: [
@@ -425,7 +423,7 @@ export const data: Person[] = [
       id: 36, 
       name: 'muhammad zaman',
       urdu: 'محمّد زمان ',
-      amount: 1000,
+
       details: {
         dues: 1000,
         history: [
@@ -437,7 +435,7 @@ export const data: Person[] = [
       id: 37, 
       name: 'ibrahim',
       urdu: 'ابراہیم ',
-      amount: '+1000',
+
       details: {
         dues: '+1000',
         history: [
@@ -449,7 +447,7 @@ export const data: Person[] = [
       id: 38, 
       name: 'muhammad karim',
       urdu: 'محمّد کریم ',
-      amount: 1600,
+ 
       details: {
         dues: 1600,
         history: [
@@ -461,7 +459,7 @@ export const data: Person[] = [
       id: 39, 
       name: 'ishaq',
       urdu: 'اسحاق ',
-      amount: 5000,
+    
       details: {
         dues: 5000,
         history: [
@@ -473,7 +471,7 @@ export const data: Person[] = [
       id: 40, 
       name: 'abdullah',
       urdu: 'عبدالله ',
-      amount: 0,
+ 
       details: {
         dues: 0,
         history: [
@@ -485,7 +483,7 @@ export const data: Person[] = [
       id: 41, 
       name: 'mahboob ali',
       urdu: 'محبوب علی ',
-      amount: 6950,
+   
       details: {
         dues:5950,
         history: [
@@ -497,11 +495,11 @@ export const data: Person[] = [
       id: 42, 
       name: 'muhammad iqbal',
       urdu: 'محمّد اقبال ',
-      amount: 2000,
+
       details: {
-        dues: 1000,
+        dues: 0,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
         ]
       }
     },
@@ -509,7 +507,7 @@ export const data: Person[] = [
       id: 43, 
       name: 'umer zaman',
       urdu: 'عمر زمان ',
-      amount: 4000,
+    
       details: {
         dues: 4000,
         history: [
@@ -521,7 +519,7 @@ export const data: Person[] = [
       id: 44, 
       name: 'sherin zaman',
       urdu: 'شیرین زمان ',
-      amount: 0,
+    
       details: {
         dues: 0,
         history: [
@@ -533,7 +531,7 @@ export const data: Person[] = [
       id: 45, 
       name: 'muhammad islam',
       urdu: 'محمّد اسلام ',
-      amount: 5000,
+   
       details: {
         dues: 4000,
         history: [
@@ -545,7 +543,7 @@ export const data: Person[] = [
       id: 46, 
       name: 'zahid hussain',
       urdu: 'زاہد حسین ',
-      amount: 2000,
+   
       details: {
         dues: 1000,
         history: [
@@ -557,7 +555,7 @@ export const data: Person[] = [
       id: 47, 
       name: 'shahid maidan',
       urdu: 'شاہد  میدان ',
-      amount: 1000,
+    
       details: {
         dues: 1000,
         history: [
@@ -568,7 +566,7 @@ export const data: Person[] = [
       id: 48, 
       name: 'muhammad diyar',
       urdu: 'محمّد دیار ',
-      amount: 1000,
+   
       details: {
         dues: 0,
         history: [
@@ -580,7 +578,7 @@ export const data: Person[] = [
       id: 50, 
       name: 'lal bacha',
       urdu: 'لعل باچا ',
-      amount: 0,
+    
       details: {
         dues: 0,
         history: [
@@ -592,7 +590,7 @@ export const data: Person[] = [
       id: 51, 
       name: 'muslium bacha',
       urdu: 'مسلم باچا ',
-      amount: 0,
+    
       details: {
         dues: 0,
         history: [
@@ -604,7 +602,7 @@ export const data: Person[] = [
       id: 52, 
       name: 'said muhammad badwan',
       urdu: 'سید محمّد باڈوان ',
-      amount: 1000,
+    
       details: {
         dues: 1000,
         history: [
@@ -616,7 +614,7 @@ export const data: Person[] = [
       id: 53, 
       name: 'naveed',
       urdu: 'نوید ',
-      amount: 4000,
+    
       details: {
         dues: 4000,
         history: [
@@ -628,7 +626,7 @@ export const data: Person[] = [
       id: 54, 
       name: 'adnan',
       urdu: 'عدنان ',
-      amount: 2700,
+    
       details: {
         dues: 2700,
         history: [
@@ -640,7 +638,7 @@ export const data: Person[] = [
       id: 55, 
       name: 'aziz ul haq',
       urdu: 'عزیز الحق ',
-      amount: 1000,
+     
       details: {
         dues: 1000,
         history: [
@@ -652,7 +650,7 @@ export const data: Person[] = [
       id: 56, 
       name: 'khan bacha',
       urdu: 'خان باچا ',
-      amount: 0,
+     
       details: {
         dues: 0,
         history: [
@@ -664,7 +662,7 @@ export const data: Person[] = [
       id: 57, 
       name: 'fazal ul rahman',
       urdu: 'فضل الرحمن ',
-      amount: 0,
+     
       details: {
         dues: 0,
         history: [
@@ -676,7 +674,7 @@ export const data: Person[] = [
       id: 58, 
       name: 'imran badwan',
       urdu: 'عمران باڈوان ',
-      amount: 7450,
+     
       details: {
         dues: 6450,
         history: [
@@ -688,7 +686,7 @@ export const data: Person[] = [
       id: 59, 
       name: 'khurshaid',
       urdu: 'خورشید ',
-      amount: 4450,
+      
       details: {
         dues: 3450,
         history: [
@@ -700,7 +698,7 @@ export const data: Person[] = [
       id: 60, 
       name: 'izat khan',
       urdu: 'عزت خان ',
-      amount: 6150,
+     
       details: {
         dues: 5150,
         history: [
@@ -712,7 +710,7 @@ export const data: Person[] = [
       id: 61, 
       name: 'muhammad asif',
       urdu: 'محمّد آصف ',
-      amount:5000,
+      
       details: {
         dues: 4000,
         history: [
@@ -724,7 +722,7 @@ export const data: Person[] = [
       id: 62, 
       name: 'javed iqbal',
       urdu: 'جاوید اقبال ',
-      amount: 2000,
+     
       details: {
         dues: 1000,
         history: [
@@ -736,7 +734,7 @@ export const data: Person[] = [
       id: 63, 
       name: 'majid gull',
       urdu: 'مجید گل ',
-      amount: 6000,
+     
       details: {
         dues: 5000,
         history: [
@@ -748,7 +746,7 @@ export const data: Person[] = [
       id: 64, 
       name: 'said muhammad khadagzai',
       urdu: 'سید محمّد خادگزی ',
-      amount: 0,
+     
       details: {
         dues: 0,
         history: [
@@ -760,7 +758,7 @@ export const data: Person[] = [
       id: 65, 
       name: 'ali rahman',
       urdu: 'علی رحمان ',
-      amount: 0,
+      
       details: {
         dues: 0,
         history: [
@@ -772,7 +770,7 @@ export const data: Person[] = [
       id: 66, 
       name: 'bahadar said',
       urdu: 'بہادر سید ',
-      amount: 1000,
+    
       details: {
         dues: 0,
         history: [
@@ -784,7 +782,7 @@ export const data: Person[] = [
       id: 67, 
       name: 'shahid PTI',
       urdu: 'شاہد  (تحریک انصاف )',
-      amount: 2000,
+      
       details: {
         dues: 1000,
         history: [
@@ -796,7 +794,7 @@ export const data: Person[] = [
       id: 68, 
       name: 'parviz',
       urdu: 'پرویز ',
-      amount: 3000,
+    
       details: {
         dues: 3000,
         history: [
@@ -808,7 +806,7 @@ export const data: Person[] = [
       id: 69, 
       name: 'shir ali',
       urdu: 'شیر علی ',
-      amount: 4000,
+     
       details: {
         dues: 3000,
         history: [
@@ -820,7 +818,7 @@ export const data: Person[] = [
       id: 70, 
       name: 'shair zaman',
       urdu: 'شیر زمان ',
-      amount: 3000,
+     
       details: {
         dues: 3000,
         history: [
@@ -832,7 +830,7 @@ export const data: Person[] = [
       id: 71, 
       name: 'umer bacha',
       urdu: 'عمر باچا ',
-      amount: 3000,
+    
       details: {
         dues: 2000,
         history: [
@@ -844,7 +842,7 @@ export const data: Person[] = [
       id: 72, 
       name: 'shabir bhai jan',
       urdu: 'شبیر بھائی جان ',
-      amount: 2000,
+    
       details: {
         dues: 1000,
         history: [
@@ -856,7 +854,7 @@ export const data: Person[] = [
       id: 73, 
       name: 'murad',
       urdu: 'مراد ',
-      amount: 4000,
+      
       details: {
         dues: 3000,
         history: [
@@ -868,7 +866,7 @@ export const data: Person[] = [
       id: 74, 
       name: 'gull faraz',
       urdu: 'گل فراز ',
-      amount: 4000,
+      
       details: {
         dues: 3000,
         history: [
@@ -880,7 +878,7 @@ export const data: Person[] = [
       id: 75, 
       name: 'bahram',
       urdu: 'بہرام ',
-      amount: 4000,
+    
       details: {
         dues: 3000,
         history: [
@@ -892,7 +890,7 @@ export const data: Person[] = [
       id: 76, 
       name: 'fayaz',
       urdu: 'فیاض ',
-      amount: 0,
+     
       details: {
         dues: 0,
         history: [
@@ -904,7 +902,6 @@ export const data: Person[] = [
       id: 77, 
       name: 'shair akbar',
       urdu: 'شیر اکبر ',
-      amount: 0,
       details: {
         dues: 0,
         history: [

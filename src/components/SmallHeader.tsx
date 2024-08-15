@@ -6,13 +6,19 @@ import { useEffect, useState } from "react"
 const SmallHeader = () => {
     const [sum, setSum] = useState(0)
     useEffect(() => {
-        let total = 0;
-        data.forEach(person => {
-            if(typeof person.amount === 'number') {
-                total += person.amount;
-            }
+      let sum = 0;
+
+        data?.forEach(data => {
+        if(typeof data?.details.dues === 'number') {
+            sum += data?.details.dues;
+        }
+        data.details.history.forEach(item => {
+          if(typeof item.amount === 'number') {
+            sum += item.amount;
+          }
         })
-        setSum(total);
+     })
+        setSum(sum);
     }, [])
   return (
     <section className="bg-gray-100 px-5 min-h-16 flex justify-between items-center border-y border-t-gray-200">
