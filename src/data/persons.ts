@@ -170,7 +170,6 @@ export const data: Person[] = [
       id: 15, 
       name: 'habib ullah',
       urdu: 'حبیب اللہ ',
-
       details: {
         dues: 0,
         history: [
