@@ -183,9 +183,9 @@ export const data: Person[] = [
       urdu: 'شاہ تماس خان ',
      
       details: {
-        dues: 3000,
+        dues: 2000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
         ]
       }
     },
