@@ -193,11 +193,10 @@ export const data: Person[] = [
       id: 17, 
       name: 'shakil khan',
       urdu: 'شکیل خان ',
-    
       details: {
         dues: 0,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
         ]
       }
     },
@@ -682,11 +681,10 @@ export const data: Person[] = [
       id: 59, 
       name: 'khurshaid',
       urdu: 'خورشید ',
-      
       details: {
-        dues: 3450,
+        dues: 1950,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0}
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000}
         ]
       }
     },
