@@ -775,11 +775,10 @@ export const data: Person[] = [
       id: 67, 
       name: 'shahid PTI',
       urdu: 'شاہد  (تحریک انصاف )',
-      
       details: {
-        dues: 1000,
+        dues: 0,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
         ]
       }
     },
@@ -835,23 +834,21 @@ export const data: Person[] = [
       id: 72, 
       name: 'shabir bhai jan',
       urdu: 'شبیر بھائی جان ',
-    
       details: {
-        dues: 1000,
+        dues: 0,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
         ]
       }
     },
     {
       id: 73, 
       name: 'murad',
-      urdu: 'مراد ',
-      
+      urdu: 'مراد ', 
       details: {
-        dues: 3000,
+        dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
         ]
       }
     },
