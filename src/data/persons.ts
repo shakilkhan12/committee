@@ -667,11 +667,10 @@ export const data: Person[] = [
       id: 58, 
       name: 'imran badwan',
       urdu: 'عمران باڈوان ',
-     
       details: {
-        dues: 6450,
+        dues: 0,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
         ]
       }
     },
