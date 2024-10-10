@@ -702,7 +702,7 @@ export const data: Person[] = [
       name: 'muhammad asif',
       urdu: 'محمّد آصف ',
       details: {
-        dues: 2500,
+        dues: 1000,
         history: [
           { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
         ]

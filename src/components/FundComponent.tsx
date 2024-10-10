@@ -40,7 +40,7 @@ const FundComponent = () => {
   return (
     <section className="bg-zinc-900 text-white px-5 min-h-16 flex justify-between items-center border-y border-t-gray-200">
     <h1 className="urdu text-3xl !text-white">موجودہ رقم :</h1>
-   <h1 className="font-bold text-base urdu flex items-center space-x-2 !text-white"><span>روپے</span> <span>78670</span></h1>
+   <h1 className="font-bold text-base urdu flex items-center space-x-2 !text-white"><span>روپے</span> <span>80170</span></h1>
 </section>
   )
 }
