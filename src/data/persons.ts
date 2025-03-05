@@ -7,9 +7,10 @@ export const data: Person[] = [
       urdu: 'امیر  غفار',
       // amount: 3000,
       details: {
-        dues: 3000,
+        dues: 4000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 },
         ]
       }
     },
@@ -18,9 +19,10 @@ export const data: Person[] = [
       name: 'gull ghafar',
       urdu: 'گل  غفار ',
       details: {
-        dues: 450,
+        dues: 1450,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول', deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول', deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -29,9 +31,10 @@ export const data: Person[] = [
       name: 'wasi ullah',
       urdu: 'وصی  الله ',
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول', deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول', deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -39,11 +42,11 @@ export const data: Person[] = [
       id: 4, 
       name: 'muhammad rafiq',
       urdu: 'محمّد رفیق ',
-
       details: {
-        dues: 4000,
+        dues: 5000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 1000, deposit_amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 1000, deposit_amount: 0 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -51,11 +54,11 @@ export const data: Person[] = [
       id: 5, 
       name: 'ghulam haider',
       urdu: 'غلام حیدر ',
- 
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -63,11 +66,11 @@ export const data: Person[] = [
       id: 6, 
       name: 'niaz muhammad',
       urdu: 'نیاز محمّد ',
-      
       details: {
-        dues: 5000,
+        dues: 6000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -75,11 +78,11 @@ export const data: Person[] = [
       id: 7, 
       name: 'said muhammad',
       urdu: 'سید محمّد ',
-   
       details: {
-        dues: 2000,
+        dues: 3000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -88,9 +91,10 @@ export const data: Person[] = [
       name: 'hussain muhammad',
       urdu: 'حسین  محمّد ',  
       details: {
-        dues: 1500,
+        dues: 2500,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول', deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول', deposit_amount: 1000 },
+           { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -100,9 +104,10 @@ export const data: Person[] = [
       urdu: ' محمّد خان  ',
     
       details: {
-        dues: 1420,
+        dues: 2420,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -112,9 +117,10 @@ export const data: Person[] = [
       urdu: 'شاہ زرین  خان ',
    
       details: {
-        dues: 2000,
+        dues: 3000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -124,9 +130,10 @@ export const data: Person[] = [
       urdu: 'آمین الله خان ',
      
       details: {
-        dues: 5500,
+        dues: 6500,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -136,9 +143,9 @@ export const data: Person[] = [
       urdu: 'احسان  الله  ',
     
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-         
+          { id: 1, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -148,9 +155,9 @@ export const data: Person[] = [
       urdu: 'سمیع اللہ',
    
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-          
+          { id: 1, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -160,7 +167,7 @@ export const data: Person[] = [
       urdu: 'اسرار ',
    
       details: {
-        dues: '+2300',
+        dues: '+1300',
         history: [
         
         ]
@@ -171,9 +178,10 @@ export const data: Person[] = [
       name: 'habib ullah',
       urdu: 'حبیب اللہ ',
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -183,9 +191,10 @@ export const data: Person[] = [
       urdu: 'شاہ تماس خان ',
      
       details: {
-        dues: 2000,
+        dues: 3000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -194,9 +203,10 @@ export const data: Person[] = [
       name: 'shakil khan',
       urdu: 'شکیل خان ',
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -206,9 +216,10 @@ export const data: Person[] = [
       urdu: 'آحمد',
  
       details: {
-        dues: 1000,
+        dues: 2000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -218,9 +229,10 @@ export const data: Person[] = [
       urdu: 'امیر  زمان ',
    
       details: {
-        dues: 6000,
+        dues: 7000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -230,9 +242,10 @@ export const data: Person[] = [
       urdu: 'محمّد زرین ',
   
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount:1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount:1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -242,9 +255,10 @@ export const data: Person[] = [
       urdu: 'عمر زادہ ',
     
       details: {
-        dues: 1000,
+        dues: 2000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -254,9 +268,10 @@ export const data: Person[] = [
       urdu: 'فضل ستار ',
     
       details: {
-        dues: 5000,
+        dues: 6000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -266,9 +281,9 @@ export const data: Person[] = [
       urdu: 'عمران شمائ ',
   
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-          
+          { id: 1, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -278,9 +293,10 @@ export const data: Person[] = [
       urdu: 'سلطان زیب ',
     
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -290,9 +306,10 @@ export const data: Person[] = [
       urdu: 'شعیب ',
   
       details: {
-        dues: 3000,
+        dues: 4000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -302,9 +319,10 @@ export const data: Person[] = [
       urdu: 'نذیر ',
   
       details: {
-        dues: 6000,
+        dues: 7000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -314,9 +332,10 @@ export const data: Person[] = [
       urdu: 'امیر باچا ',
   
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -325,9 +344,10 @@ export const data: Person[] = [
       name: 'irshad maulana',
       urdu: 'ارشاد مولانا ',
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -336,9 +356,10 @@ export const data: Person[] = [
       name: 'farooq',
       urdu: 'فاروق ',
       details: {
-        dues: 4120,
+        dues: 5120,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -348,9 +369,11 @@ export const data: Person[] = [
       urdu: 'نور زمان ',
    
       details: {
-        dues: 1000,
+        dues: 2000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -360,9 +383,10 @@ export const data: Person[] = [
       urdu: 'گل رحمان',
    
       details: {
-        dues: 5300,
+        dues: 6300,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -372,9 +396,10 @@ export const data: Person[] = [
       urdu: 'صابر  خان ',
  
       details: {
-        dues: 1000,
+        dues: 2000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -384,9 +409,10 @@ export const data: Person[] = [
       urdu: 'جہانزیب ',
  
       details: {
-        dues: 6000,
+        dues: 7000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -396,9 +422,10 @@ export const data: Person[] = [
       urdu: 'نصیب روان ',
    
       details: {
-        dues: 3000,
+        dues: 4000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -408,9 +435,10 @@ export const data: Person[] = [
       urdu: 'مومن خان ',
 
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -420,9 +448,10 @@ export const data: Person[] = [
       urdu: 'محمّد زمان ',
 
       details: {
-        dues: 1000,
+        dues: 2000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -432,7 +461,7 @@ export const data: Person[] = [
       urdu: 'ابراہیم ',
 
       details: {
-        dues: '+1000',
+        dues: 0,
         history: [
         
         ]
@@ -444,9 +473,11 @@ export const data: Person[] = [
       urdu: 'محمّد کریم ',
  
       details: {
-        dues: 1600,
+        dues: 2600,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -456,9 +487,11 @@ export const data: Person[] = [
       urdu: 'اسحاق ',
     
       details: {
-        dues: 5000,
+        dues: 6000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -468,9 +501,11 @@ export const data: Person[] = [
       urdu: 'عبدالله ',
  
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -480,9 +515,10 @@ export const data: Person[] = [
       urdu: 'محبوب علی ',
    
       details: {
-        dues:5950,
+        dues:6950,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
         ]
       }
     },
@@ -492,9 +528,11 @@ export const data: Person[] = [
       urdu: 'محمّد اقبال ',
 
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -504,9 +542,11 @@ export const data: Person[] = [
       urdu: 'عمر زمان ',
     
       details: {
-        dues: 4000,
+        dues: 5000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -516,9 +556,11 @@ export const data: Person[] = [
       urdu: 'شیرین زمان ',
     
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -528,9 +570,11 @@ export const data: Person[] = [
       urdu: 'محمّد اسلام ',
    
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -540,9 +584,11 @@ export const data: Person[] = [
       urdu: 'زاہد حسین ',
    
       details: {
-        dues: 1000,
+        dues: 2000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -552,8 +598,10 @@ export const data: Person[] = [
       urdu: 'شاہد  میدان ',
     
       details: {
-        dues: 1000,
+        dues: 2000,
         history: [
+          { id: 1, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -562,9 +610,11 @@ export const data: Person[] = [
       name: 'muhammad diyar',
       urdu: 'محمّد دیار ',
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -573,9 +623,10 @@ export const data: Person[] = [
       name: 'lal bacha',
       urdu: 'لعل باچا ',
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-        
+          { id: 1, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -585,9 +636,11 @@ export const data: Person[] = [
       urdu: 'مسلم باچا ',
     
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -597,9 +650,11 @@ export const data: Person[] = [
       urdu: 'سید محمّد باڈوان ',
     
       details: {
-        dues: 1000,
+        dues: 2000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -609,9 +664,11 @@ export const data: Person[] = [
       urdu: 'نوید ',
     
       details: {
-        dues: 4000,
+        dues: 5000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -621,9 +678,11 @@ export const data: Person[] = [
       urdu: 'عدنان ',
     
       details: {
-        dues: 2700,
+        dues: 3700,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -633,9 +692,11 @@ export const data: Person[] = [
       urdu: 'عزیز الحق ',
      
       details: {
-        dues: 1000,
+        dues: 2000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -645,9 +706,11 @@ export const data: Person[] = [
       urdu: 'خان باچا ',
      
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -657,9 +720,11 @@ export const data: Person[] = [
       urdu: 'فضل الرحمن ',
      
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -668,9 +733,11 @@ export const data: Person[] = [
       name: 'imran badwan',
       urdu: 'عمران باڈوان ',
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -679,9 +746,11 @@ export const data: Person[] = [
       name: 'khurshaid',
       urdu: 'خورشید ',
       details: {
-        dues: 1950,
+        dues: 2950,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000}
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000},
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -691,9 +760,11 @@ export const data: Person[] = [
       urdu: 'عزت خان ',
      
       details: {
-        dues: 5150,
+        dues: 6150,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0}
+          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0},
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -702,9 +773,11 @@ export const data: Person[] = [
       name: 'muhammad asif',
       urdu: 'محمّد آصف ',
       details: {
-        dues: 1000,
+        dues: 2000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -713,9 +786,11 @@ export const data: Person[] = [
       name: 'javed iqbal',
       urdu: 'جاوید اقبال ',
       details: {
-        dues: 1000,
+        dues: 2000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -725,9 +800,11 @@ export const data: Person[] = [
       urdu: 'مجید گل ',
      
       details: {
-        dues: 5000,
+        dues: 6000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -737,9 +814,11 @@ export const data: Person[] = [
       urdu: 'سید محمّد خادگزی ',
      
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -749,9 +828,11 @@ export const data: Person[] = [
       urdu: 'علی رحمان ',
       
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -761,9 +842,11 @@ export const data: Person[] = [
       urdu: 'بہادر سید ',
     
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -772,9 +855,11 @@ export const data: Person[] = [
       name: 'shahid PTI',
       urdu: 'شاہد  (تحریک انصاف )',
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -784,9 +869,11 @@ export const data: Person[] = [
       urdu: 'پرویز ',
     
       details: {
-        dues: 3000,
+        dues: 4000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -796,9 +883,11 @@ export const data: Person[] = [
       urdu: 'شیر علی ',
      
       details: {
-        dues: 3000,
+        dues: 4000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -808,9 +897,11 @@ export const data: Person[] = [
       urdu: 'شیر زمان ',
      
       details: {
-        dues: 3000,
+        dues: 4000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -820,9 +911,11 @@ export const data: Person[] = [
       urdu: 'عمر باچا ',
     
       details: {
-        dues: 2000,
+        dues: 3000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -831,9 +924,11 @@ export const data: Person[] = [
       name: 'shabir bhai jan',
       urdu: 'شبیر بھائی جان ',
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -842,9 +937,11 @@ export const data: Person[] = [
       name: 'murad',
       urdu: 'مراد ', 
       details: {
-        dues: 1000,
+        dues: 2000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 }
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -854,9 +951,11 @@ export const data: Person[] = [
       urdu: 'گل فراز ',
       
       details: {
-        dues: 3000,
+        dues: 4000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -866,9 +965,11 @@ export const data: Person[] = [
       urdu: 'بہرام ',
     
       details: {
-        dues: 3000,
+        dues: 4000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 }
+          { id: 1, name: 'شاہد والد', amount: 1000,deposit_amount: 0 },
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -878,9 +979,11 @@ export const data: Person[] = [
       urdu: 'فیاض ',
      
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000}
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000},
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
@@ -889,9 +992,11 @@ export const data: Person[] = [
       name: 'shair akbar',
       urdu: 'شیر اکبر ',
       details: {
-        dues: 0,
+        dues: 1000,
         history: [
-          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000}
+          { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000},
+          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0 }
+
         ]
       }
     },
