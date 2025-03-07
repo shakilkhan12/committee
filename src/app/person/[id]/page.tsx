@@ -60,10 +60,10 @@ const page = ({params}: PropTypes) => {
                         }
                     })}
                 </div>
-                <div className='border-t p-4 flex justify-between items-center'>
-                    <h3 className='urdu text-base font-bold'>ٹوٹل بقایا جات:</h3>
+                <div className={`border-t p-4 flex justify-between items-center ${total(person) === 0 ? 'bg-green-200' : 'bg-red-200'}`}>
+                    <h3 className={`urdu text-base font-bold ${total(person) === 0 ? 'text-green-800' : 'text-red-800'}`}>ٹوٹل بقایا جات:</h3>
                     <h3 className='urdu text-base font-bold'>
-                        {typeof person.details?.dues === 'number' ? <div className='flex items-center space-x-2'>
+                        {typeof person.details?.dues === 'number' ? <div className='flex items-center space-x-2 '>
                         <span>روپے </span>
                         <span>{total(person)}</span></div> : person.details.dues}
                     </h3>
