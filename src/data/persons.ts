@@ -1023,7 +1023,7 @@ export const data: Person[] = [
       name: 'shair ali',
       urdu: 'شیر علی ',
       details: {
-        dues: 4000,
+        dues: 3000,
         history: [
           { id: 1, name: 'شاہد والد', amount:1000,deposit_amount: 0 },
           { id: 2, name: 'اصغر والدہ', amount:'وصول',deposit_amount: 1000 }
