@@ -1030,6 +1030,18 @@ export const data: Person[] = [
         ]
       }, 
     },
+    {
+      id: 81, 
+      name: 'zahir shah',
+      urdu: 'ظاہر شاہ ',
+      details: {
+        dues: 0,
+        history: [
+          { id: 1, name: 'شاہد والد', amount:1000,deposit_amount: 0 },
+          { id: 2, name: 'اصغر والدہ', amount:1000,deposit_amount: 0 }
+        ]
+      }, 
+    },
     
     
   ];
