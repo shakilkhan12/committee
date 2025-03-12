@@ -937,8 +937,8 @@ export const data: Person[] = [
     },
     {
       id: 74, 
-      name: 'gull faraz',
-      urdu: 'گل فراز ',
+      name: 'gull faraz saib',
+      urdu: 'گل فراز صیب ',
       
       details: {
         dues: 3000,
