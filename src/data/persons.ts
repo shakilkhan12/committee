@@ -76,8 +76,8 @@ export const data: Person[] = [
     },
     {
       id: 7, 
-      name: 'said muhammad',
-      urdu: 'سید محمّد ',
+      name: 'said muhammad rori',
+      urdu: 'سید محمّد روری ',
       details: {
         dues: 2000,
         history: [
