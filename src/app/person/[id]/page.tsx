@@ -41,25 +41,34 @@ const page = ({params}: PropTypes) => {
                 <div className='border-t p-4'>
                     <h3 className='urdu text-center text-xl'>مرے ہوئے لوگوں کی تفصیلات</h3>
                 </div>
-                <div className=''>
-                    {person?.details?.history?.map(history => {
-                        if(typeof history.amount === 'number') {
+                <div className="overflow-hidden border border-gray-200 bg-white shadow-sm">
+                    <div className='overflow-x-auto'>
+                    <table className='min-w-full text-left text-sm'>
+                        <thead className='sticky top-0 z-10 bg-gray-50 text-gray-600'>
+                            <tr className='[&>th]:px-4 [&>th]:py-3'>
+                                <th className='px-4 py-3 urdu w-[130px]'>نام </th>
+                                <th className='px-4 py-3 urdu w-[130px]'>تاریخ وفات</th>
+                                <th className='px-4 py-3 urdu w-[130px]'>وصول / بقایا </th>
+                            </tr>
+                        </thead>
+                        <tbody  className='divide-y divide-gray-100'>
+                          {person?.details?.history?.map(history => {
                             return (
-                                <div className='flex items-center justify-between border-t py-3 px-6'>
-                                    <h3 className='urdu text-base font-semibold'>{history.name}:</h3>
-                                    <h3 className='font-semibold urdu flex items-center space-x-2'><span>روپے</span> <span>{history.amount}</span></h3>
-                                </div>
+                                <tr>
+                                    <td className='px-4 py-3'><h3 className='urdu text-base font-semibold'>{history.name}:</h3>
+                                    </td>
+                                    <td className='font-semibold'>{history.death_date}</td>
+                                    <td>{typeof history.amount === 'number' ?                                     <h3 className='font-semibold urdu flex items-center space-x-2'><span>روپے</span> <span>{history.amount}</span></h3>
+ : <h3 className='font-semibold urdu flex text-right  w-[130px] space-x-2'><span>{history.amount}</span></h3>}</td>
+                                </tr>
                             )
-                        } else {
-                           return  (
-                            <div className='flex items-center justify-between border-t py-3 px-6'>
-                           <h3 className='urdu text-base font-semibold'>{history.name}:</h3>
-                           <h3 className='font-semibold urdu flex items-center space-x-2'><span>{history.amount}</span></h3>
-                       </div>
-                           )
-                        }
-                    })}
+                          })}
+                        </tbody>
+                    </table>
+                   
                 </div>
+                </div>
+                
                 <div className={`border-t p-4 flex justify-between items-center ${total(person) === 0 ? 'bg-green-200' : 'bg-red-200'}`}>
                     <h3 className={`urdu text-base font-bold ${total(person) === 0 ? 'text-green-800' : 'text-red-800'}`}>ٹوٹل بقایا جات:</h3>
                     <h3 className='urdu text-base font-bold'>
