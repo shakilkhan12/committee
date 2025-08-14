@@ -1,6 +1,5 @@
 'use client'
 import Header from '@/components/Header'
-import SmallHeader from '@/components/SmallHeader'
 import { data } from '@/data/persons'
 import { History, Person } from '@/types'
 import { notFound } from 'next/navigation'
@@ -25,6 +24,7 @@ const page = ({params}: PropTypes) => {
     })
     return totalAmount;
    }
+
   return (
     <div>
          <Header />
