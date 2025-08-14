@@ -46,9 +46,9 @@ const page = ({params}: PropTypes) => {
                     <table className='min-w-full text-left text-sm'>
                         <thead className='sticky top-0 z-10 bg-gray-50 text-gray-600'>
                             <tr className='[&>th]:px-4 [&>th]:py-3'>
-                                <th className='px-4 py-3 urdu w-[130px] border'>نام </th>
-                                <th className='px-4 py-3 urdu w-[130px] border'>تاریخ وفات</th>
-                                <th className='px-4 py-3 urdu w-[130px] border'>وصول / بقایا </th>
+                                <th className='px-4 py-3 urdu min-w-[130px] border'>نام </th>
+                                <th className='px-4 py-3 urdu min-w-[130px] border'>تاریخ وفات</th>
+                                <th className='px-4 py-3 urdu min-w-[130px] border'>وصول / بقایا </th>
                             </tr>
                         </thead>
                         <tbody  className='divide-y divide-gray-100'>
