@@ -41,24 +41,24 @@ const page = ({params}: PropTypes) => {
                 <div className='border-t p-4'>
                     <h3 className='urdu text-center text-xl'>مرے ہوئے لوگوں کی تفصیلات</h3>
                 </div>
-                <div className="overflow-hidden border border-gray-200 bg-white shadow-sm">
+                <div className="overflow-hidden bg-white shadow-sm">
                     <div className='overflow-x-auto'>
                     <table className='min-w-full text-left text-sm'>
                         <thead className='sticky top-0 z-10 bg-gray-50 text-gray-600'>
                             <tr className='[&>th]:px-4 [&>th]:py-3'>
-                                <th className='px-4 py-3 urdu w-[130px]'>نام </th>
-                                <th className='px-4 py-3 urdu w-[130px]'>تاریخ وفات</th>
-                                <th className='px-4 py-3 urdu w-[130px]'>وصول / بقایا </th>
+                                <th className='px-4 py-3 urdu w-[130px] border'>نام </th>
+                                <th className='px-4 py-3 urdu w-[130px] border'>تاریخ وفات</th>
+                                <th className='px-4 py-3 urdu w-[130px] border'>وصول / بقایا </th>
                             </tr>
                         </thead>
                         <tbody  className='divide-y divide-gray-100'>
                           {person?.details?.history?.map(history => {
                             return (
                                 <tr>
-                                    <td className='px-4 py-3'><h3 className='urdu text-base font-semibold'>{history.name}:</h3>
+                                    <td className='px-4 py-3 border'><h3 className='urdu text-base font-semibold '>{history.name}:</h3>
                                     </td>
-                                    <td className='font-semibold'>{history.death_date}</td>
-                                    <td>{typeof history.amount === 'number' ?                                     <h3 className='font-semibold urdu flex items-center space-x-2'><span>روپے</span> <span>{history.amount}</span></h3>
+                                    <td className='font-semibold border px-4 py-3'>{history.death_date}</td>
+                                    <td className='border px-4 py-3'>{typeof history.amount === 'number' ?                                     <h3 className='font-semibold urdu flex items-center space-x-2'><span>روپے</span> <span>{history.amount}</span></h3>
  : <h3 className='font-semibold urdu flex text-right  w-[130px] space-x-2'><span>{history.amount}</span></h3>}</td>
                                 </tr>
                             )
