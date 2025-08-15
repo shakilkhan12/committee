@@ -39,7 +39,7 @@ const page = ({params}: PropTypes) => {
                     <h1 className='text-base font-bold urdu flex items-center space-x-2'><span>روپے </span><span>{person.details?.dues}</span></h1>
                 </div>
                 <div className='border-t p-4'>
-                    <h3 className='urdu text-center text-xl'>مرے ہوئے لوگوں کی تفصیلات</h3>
+                    <h3 className='urdu text-center text-xl'>وفات پانے والے افراد کی تفصیلات</h3>
                 </div>
                 <div className="overflow-hidden bg-white shadow-sm">
                     <div className='overflow-x-auto'>
