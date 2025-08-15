@@ -57,7 +57,7 @@ const page = ({params}: PropTypes) => {
                                 <tr>
                                     <td className='px-4 py-3 border'><h3 className='urdu text-base font-semibold '>{history.name}:</h3>
                                     </td>
-                                    <td className='font-semibold border px-4 py-3'>{history.death_date}</td>
+                                    <td className='font-semibold border px-4 py-3 urdu'>{history.death_date}</td>
                                     <td className='border px-4 py-3'>{typeof history.amount === 'number' ?                                     <h3 className='font-semibold urdu flex items-center space-x-2'><span>روپے</span> <span>{history.amount}</span></h3>
  : <h3 className='font-semibold urdu flex text-right  w-[130px] space-x-2'><span>{history.amount}</span></h3>}</td>
                                 </tr>
