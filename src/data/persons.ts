@@ -88,7 +88,7 @@ export const data: Person[] = [
         history: [
           { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
           { id: 2, name: 'اصغر والدہ', amount:'وصول',deposit_amount: 1000,death_date: '6-3-2025'  },
-          { id: 3, name: 'حاجی محمّد زادہ', amount:1000,deposit_amount: 0, death_date: '14-8-2025'}
+          { id: 3, name: 'حاجی محمّد زادہ', amount:'وصول ',deposit_amount: 1000, death_date: '14-8-2025'}
         ]
       }
     },
