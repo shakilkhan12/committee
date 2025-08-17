@@ -5,6 +5,12 @@ export type History  = {
   deposit_amount?: number,
   death_date?: string
 }
+export type DeathTypes = {
+  id: number;
+  name: string;
+  amount: number;
+  expense?: number
+}
 export type Person = {
     id: number
     name: string;
