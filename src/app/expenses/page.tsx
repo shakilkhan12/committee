@@ -16,6 +16,8 @@ const page = () => {
                     <th className='px-4 py-3 urdu min-w-[130px] border'>نام </th>
                     <th className='px-4 py-3 urdu min-w-[130px] border'>مختص رقم</th>
                     <th className='px-4 py-3 urdu min-w-[130px] border'>خرچ شدہ رقم</th>
+                    <th className='px-4 py-3 urdu min-w-[130px] border'>بچ جانے والی رقم</th>
+
                 </tr>
             </thead>
             <tbody className='divide-y divide-gray-100'>
@@ -26,6 +28,8 @@ const page = () => {
                             <td className='font-semibold border px-4 py-3 urdu'>{person.name}</td>
                             <td className='font-semibold border px-4 py-3 urdu'>{person.amount}</td>
                             <td className='font-semibold border px-4 py-3 urdu'>{person.expense}</td>
+                            <td className='font-semibold border px-4 py-3 urdu'>{person.expense ? person.amount - person.expense : ''}</td>
+
                         </tr>
                     )
                 })}
