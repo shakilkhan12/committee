@@ -204,11 +204,11 @@ export const data: Person[] = [
       urdu: 'شاہ تماس خان ',
      
       details: {
-        dues: 2000,
+        dues: 1500,
         history: [
           { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
           { id: 2, name: 'اصغر والدہ', amount:'وصول',deposit_amount: 1000,death_date: 'چھ مارچ   2025' },
-          { id: 3, name: 'حاجی محمّد زادہ', amount:1000,deposit_amount: 0, death_date: ' چودہ  اگست  2025'}
+          { id: 3, name: 'حاجی محمّد زادہ', amount:'وصول',deposit_amount: 1000, death_date: ' چودہ  اگست  2025'}
         ]
       }
     },
@@ -302,7 +302,7 @@ export const data: Person[] = [
         dues: 0,
         history: [
           { id: 1, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0,death_date: 'چھ مارچ   2025' },
-          { id: 3, name: 'حاجی محمّد زادہ', amount:1000,deposit_amount: 0, death_date: ' چودہ  اگست  2025'}
+          { id: 3, name: 'حاجی محمّد زادہ', amount:'وصول',deposit_amount: 1000, death_date: ' چودہ  اگست  2025'}
         ]
       }
     },
@@ -561,7 +561,6 @@ export const data: Person[] = [
       id: 42, 
       name: 'muhammad iqbal',
       urdu: 'محمّد اقبال ',
-
       details: {
         dues: 0,
         history: [
@@ -576,13 +575,12 @@ export const data: Person[] = [
       id: 43, 
       name: 'umer zaman',
       urdu: 'عمر زمان ',
-    
       details: {
-        dues: 4000,
+        dues: 2000,
         history: [
           { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
-          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0,death_date: 'چھ مارچ   2025' },
-          { id: 3, name: 'حاجی محمّد زادہ', amount:1000,deposit_amount: 0, death_date: ' چودہ  اگست  2025'}
+          { id: 2, name: 'اصغر والدہ', amount: 'وصول',deposit_amount: 1000,death_date: 'چھ مارچ   2025' },
+          { id: 3, name: 'حاجی محمّد زادہ', amount:'وصول',deposit_amount: 1000, death_date: ' چودہ  اگست  2025'}
 
         ]
       }
@@ -1066,7 +1064,7 @@ export const data: Person[] = [
         history: [
           { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
           { id: 2, name: 'اصغر والدہ', amount:'وصول',deposit_amount: 1000, death_date: 'چھ مارچ   2025' },
-          { id: 3, name: 'حاجی محمّد زادہ', amount:1000,deposit_amount: 0, death_date: ' چودہ  اگست  2025'}
+          { id: 3, name: 'حاجی محمّد زادہ', amount:'وصول',deposit_amount: 1000, death_date: ' چودہ  اگست  2025'}
         ]
       }, 
     },
