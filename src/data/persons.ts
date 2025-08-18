@@ -271,12 +271,11 @@ export const data: Person[] = [
       id: 21, 
       name: 'umer zada',
       urdu: 'عمر زادہ ',
-    
       details: {
-        dues: 1000,
+        dues: '+1000',
         history: [
           { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
-          { id: 2, name: 'اصغر والدہ', amount: 1000,deposit_amount: 0,death_date: 'چھ مارچ   2025' }
+          { id: 2, name: 'اصغر والدہ', amount: 'وصول',deposit_amount: 1000,death_date: 'چھ مارچ   2025' }
         ]
       }
     },
