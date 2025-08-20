@@ -1,3 +1,1 @@
-abid -> 55470
-Shakil -> 4500 
-Total -> 59970
+abid -> 55470 - 6000  = (49470 current with abid)
