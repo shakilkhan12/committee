@@ -585,7 +585,7 @@ export const data: Person[] = [
       name: 'mahboob ali',
       urdu: 'محبوب علی ',
       details: {
-        dues:1950,
+        dues: 950,
         history: [
           { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
           { id: 2, name: 'اصغر والدہ', amount: 'وصول',deposit_amount: 1000, death_date: 'چھ مارچ   2025' },
@@ -1001,7 +1001,7 @@ export const data: Person[] = [
         history: [
           { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
           { id: 2, name: 'اصغر والدہ', amount: 'وصول',deposit_amount: 1000, death_date: 'چھ مارچ   2025' },
-          { id: 3, name: 'حاجی محمّد زادہ', amount:1000,deposit_amount: 0, death_date: ' چودہ  اگست  2025'},
+          { id: 3, name: 'حاجی محمّد زادہ', amount:'وصول',deposit_amount: 1000, death_date: ' چودہ  اگست  2025'},
           { id: 4, name: 'شاہ تماز  مرحوم ', amount:1000,deposit_amount: 0, death_date: 'بارہ دسمبر   2025'}
 
         ]
