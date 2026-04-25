@@ -232,7 +232,7 @@ export const data: Person[] = [
       urdu: 'شاہ تماس خان ',
      
       details: {
-        dues: 1500,
+        dues:8500,
         history: [
           { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
           { id: 2, name: 'اصغر والدہ', amount:'وصول',deposit_amount: 1000,death_date: 'چھ مارچ   2025' },
