@@ -1235,6 +1235,71 @@ export const data: Person[] = [
       }, 
     },
 
-    
+       {
+      id: 81, 
+      name: 'shoaib Dirojy',
+      urdu: ' شعیب دیروجے  ',
+      details: {
+        dues: 0,
+        history: [
+         
+        ]
+      }, 
+    }, 
+        {
+      id: 82, 
+      name: 'Arshad Sozaki',
+      urdu: ' ارشد سوزوکی   ',
+      details: {
+        dues: 0,
+        history: [
+         
+        ]
+      }, 
+    }, 
+         {
+      id: 83, 
+      name: 'Mehboob Ali (Wasi Ullah Brother)',
+      urdu: '  محبوب علی (وصی اللہ بھائی )   ',
+      details: {
+        dues: 0,
+        history: [
+         
+        ]
+      }, 
+    }, 
+          {
+      id: 84, 
+      name: 'Izhar ',
+      urdu: '  اظہار',
+      details: {
+        dues: 0,
+        history: [
+         
+        ]
+      }, 
+    },
+             {
+      id: 85, 
+      name: 'Jabran',
+      urdu: '  جبران ',
+      details: {
+        dues: 0,
+        history: [
+         
+        ]
+      }, 
+    },
+                 {
+      id: 86, 
+      name: 'Saleem',
+      urdu: '  سلیم  ',
+      details: {
+        dues: 0,
+        history: [
+         
+        ]
+      }, 
+    },
     
   ];
