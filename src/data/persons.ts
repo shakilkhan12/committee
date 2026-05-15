@@ -228,16 +228,16 @@ export const data: Person[] = [
     },
     {
       id: 16, 
-      name: 'shah tamas khan',
-      urdu: 'شاہ تماس خان ',
+      name: 'Rashid Ahmed',
+      urdu: 'رشید احمد ',
      
       details: {
-        dues:8500,
+        dues:6500,
         history: [
           { id: 1, name: 'شاہد والد', amount: 'وصول',deposit_amount: 1000 },
           { id: 2, name: 'اصغر والدہ', amount:'وصول',deposit_amount: 1000,death_date: 'چھ مارچ   2025' },
           { id: 3, name: 'حاجی محمّد زادہ', amount:'وصول',deposit_amount: 1000, death_date: ' چودہ  اگست  2025'},
-           { id: 5, name: 'نیاز محمّد بہن ', amount:1000,deposit_amount: 0, death_date: 'پانچ اپریل  2026'},
+           { id: 5, name: 'نیاز محمّد بہن ', amount:'وصول',deposit_amount: 1000, death_date: 'پانچ اپریل  2026'},
         ]
       }
     },
