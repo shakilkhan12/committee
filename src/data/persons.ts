@@ -207,7 +207,7 @@ export const data: Person[] = [
         dues: 0,
         history: [
         { id: 4, name: 'شاہ تماز  مرحوم ', amount:700,deposit_amount: 0, death_date: 'بارہ دسمبر   2025'},
-         { id: 5, name: 'نیاز محمّد بہن ', amount:1000,deposit_amount: 0, death_date: 'پانچ اپریل  2026'},
+         { id: 5, name: 'نیاز محمّد بہن ', amount:'وصول',deposit_amount: 1000, death_date: 'پانچ اپریل  2026'},
         ]
       }
     },
