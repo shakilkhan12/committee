@@ -85,7 +85,7 @@ export const data: Person[] = [
     name: 'niaz muhammad',
     urdu: 'نیاز محمّد ',
     details: {
-      dues: 4500,
+      dues: 2500,
       history: [
         { id: 1, name: 'شاہد والد', amount: 'وصول', deposit_amount: 1000 },
         { id: 2, name: 'اصغر والدہ', amount: 'وصول', deposit_amount: 1000, death_date: 'چھ مارچ   2025' },
@@ -246,13 +246,13 @@ export const data: Person[] = [
     urdu: 'رشید احمد ',
 
     details: {
-      dues: 6500,
+      dues: 5500,
       history: [
         { id: 1, name: 'شاہد والد', amount: 'وصول', deposit_amount: 1000 },
         { id: 2, name: 'اصغر والدہ', amount: 'وصول', deposit_amount: 1000, death_date: 'چھ مارچ   2025' },
         { id: 3, name: 'حاجی محمّد زادہ', amount: 'وصول', deposit_amount: 1000, death_date: ' چودہ  اگست  2025' },
         { id: 5, name: 'نیاز محمّد بہن ', amount: 'وصول', deposit_amount: 1000, death_date: 'پانچ اپریل  2026' },
-        { id: 6, name: 'وصی اللہ والدہ ', amount: 1000, deposit_amount: 0, death_date: 'پندرہ جولائی 2026' },
+        { id: 6, name: 'وصی اللہ والدہ ', amount: 'وصول', deposit_amount: 1000, death_date: 'پندرہ جولائی 2026' },
       ]
     }
   },
@@ -300,8 +300,8 @@ export const data: Person[] = [
         { id: 2, name: 'اصغر والدہ', amount: 'وصول', deposit_amount: 1000, death_date: 'چھ مارچ   2025' },
         { id: 3, name: 'حاجی محمّد زادہ', amount: 1000, deposit_amount: 0, death_date: ' چودہ  اگست  2025' },
         { id: 4, name: 'شاہ تماز  مرحوم ', amount: 1000, deposit_amount: 0, death_date: 'بارہ دسمبر   2025' },
-        { id: 5, name: 'نیاز محمّد بہن ', amount: 1000, deposit_amount: 0, death_date: 'پانچ اپریل  2026' },
-        { id: 6, name: 'وصی اللہ والدہ ', amount: 1000, deposit_amount: 0, death_date: 'پندرہ جولائی 2026' },
+        { id: 5, name: 'نیاز محمّد بہن ', amount: 'وصول', deposit_amount: 1000, death_date: 'پانچ اپریل  2026' },
+        { id: 6, name: 'وصی اللہ والدہ ', amount: 'وصول', deposit_amount: 1000, death_date: 'پندرہ جولائی 2026' },
       ]
     }
   },
@@ -532,8 +532,8 @@ export const data: Person[] = [
         { id: 1, name: 'شاہد والد', amount: 'وصول', deposit_amount: 1000 },
         { id: 2, name: 'اصغر والدہ', amount: 'وصول', deposit_amount: 1000, death_date: 'چھ مارچ   2025' },
         { id: 3, name: 'حاجی محمّد زادہ', amount: 1000, deposit_amount: 0, death_date: ' چودہ  اگست  2025' },
-        { id: 4, name: 'شاہ تماز  مرحوم ', amount: 1000, deposit_amount: 0, death_date: 'بارہ دسمبر   2025' },
-        { id: 5, name: 'نیاز محمّد بہن ', amount: 1000, deposit_amount: 0, death_date: 'پانچ اپریل  2026' },
+        { id: 4, name: 'شاہ تماز  مرحوم ', amount: 'وصول', deposit_amount: 1000, death_date: 'بارہ دسمبر   2025' },
+        { id: 5, name: 'نیاز محمّد بہن ', amount: 'وصول', deposit_amount: 1000, death_date: 'پانچ اپریل  2026' },
         { id: 6, name: 'وصی اللہ والدہ ', amount: 'وصول', deposit_amount: 1000, death_date: 'پندرہ جولائی 2026' },
       ]
     }
@@ -720,7 +720,7 @@ export const data: Person[] = [
         { id: 3, name: 'حاجی محمّد زادہ', amount: 'وصول', deposit_amount: 1000, death_date: ' چودہ  اگست  2025' },
         { id: 4, name: 'شاہ تماز  مرحوم ', amount: 'وصول', deposit_amount: 1000, death_date: 'بارہ دسمبر   2025' },
         { id: 5, name: 'نیاز محمّد بہن ', amount: 'وصول', deposit_amount: 1000, death_date: 'پانچ اپریل  2026' },
-        { id: 6, name: 'وصی اللہ والدہ ', amount: 1000, deposit_amount: 0, death_date: 'پندرہ جولائی 2026' },
+        { id: 6, name: 'وصی اللہ والدہ ', amount: 'وصول', deposit_amount: 1000, death_date: 'پندرہ جولائی 2026' },
 
       ]
     }
@@ -737,8 +737,8 @@ export const data: Person[] = [
         { id: 2, name: 'اصغر والدہ', amount: 'وصول', deposit_amount: 1000, death_date: 'چھ مارچ   2025' },
         { id: 3, name: 'حاجی محمّد زادہ', amount: 1000, deposit_amount: 0, death_date: ' چودہ  اگست  2025' },
         { id: 4, name: 'شاہ تماز  مرحوم ', amount: 1000, deposit_amount: 0, death_date: 'بارہ دسمبر   2025' },
-        { id: 5, name: 'نیاز محمّد بہن ', amount: 1000, deposit_amount: 0, death_date: 'پانچ اپریل  2026' },
-        { id: 6, name: 'وصی اللہ والدہ ', amount: 1000, deposit_amount: 0, death_date: 'پندرہ جولائی 2026' },
+        { id: 5, name: 'نیاز محمّد بہن ', amount: 'وصول', deposit_amount: 1000, death_date: 'پانچ اپریل  2026' },
+        { id: 6, name: 'وصی اللہ والدہ ', amount: 'وصول', deposit_amount: 1000, death_date: 'پندرہ جولائی 2026' },
 
 
       ]
@@ -994,8 +994,8 @@ export const data: Person[] = [
         { id: 2, name: 'اصغر والدہ', amount: 'وصول', deposit_amount: 1000, death_date: 'چھ مارچ   2025' },
         { id: 3, name: 'حاجی محمّد زادہ', amount: 1000, deposit_amount: 0, death_date: ' چودہ  اگست  2025' },
         { id: 4, name: 'شاہ تماز  مرحوم ', amount: 1000, deposit_amount: 0, death_date: 'بارہ دسمبر   2025' },
-        { id: 5, name: 'نیاز محمّد بہن ', amount: 1000, deposit_amount: 0, death_date: 'پانچ اپریل  2026' },
-        { id: 6, name: 'وصی اللہ والدہ ', amount: 1000, deposit_amount: 0, death_date: 'پندرہ جولائی 2026' },
+        { id: 5, name: 'نیاز محمّد بہن ', amount: 'وصول', deposit_amount: 1000, death_date: 'پانچ اپریل  2026' },
+        { id: 6, name: 'وصی اللہ والدہ ', amount: 'وصول', deposit_amount: 1000, death_date: 'پندرہ جولائی 2026' },
       ]
     }
   },
@@ -1134,8 +1134,8 @@ export const data: Person[] = [
         { id: 2, name: 'اصغر والدہ', amount: 'وصول', deposit_amount: 1000, death_date: 'چھ مارچ   2025' },
         { id: 3, name: 'حاجی محمّد زادہ', amount: 'وصول', deposit_amount: 1000, death_date: ' چودہ  اگست  2025' },
         { id: 4, name: 'شاہ تماز  مرحوم ', amount: 1000, deposit_amount: 0, death_date: 'بارہ دسمبر   2025' },
-        { id: 5, name: 'نیاز محمّد بہن ', amount: 1000, deposit_amount: 0, death_date: 'پانچ اپریل  2026' },
-        { id: 6, name: 'وصی اللہ والدہ ', amount: 1000, deposit_amount: 0, death_date: 'پندرہ جولائی 2026' },
+        { id: 5, name: 'نیاز محمّد بہن ', amount: 'وصول', deposit_amount: 1000, death_date: 'پانچ اپریل  2026' },
+        { id: 6, name: 'وصی اللہ والدہ ', amount: 'وصول', deposit_amount: 1000, death_date: 'پندرہ جولائی 2026' },
 
       ]
     }
