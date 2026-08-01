@@ -28,5 +28,11 @@ export const dead: DeathTypes[] = [
         name: 'نیاز محمّد بہن ', 
         amount: 70000,
         expense: 0
+    },
+     {
+        id: 6,
+        name: ' وصی اللہ والدہ ', 
+        amount: 80000,
+        expense: 0
     }
 ]
