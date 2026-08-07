@@ -1363,5 +1363,16 @@ export const data: Person[] = [
       ]
     },
   },
+         {
+    id: 87,
+    name: 'Abdur Rahman',
+    urdu: 'عبد الرحمن ',
+    details: {
+      dues: 0,
+      history: [
+       
+      ]
+    },
+  },
 
 ];
